@@ -10,5 +10,9 @@ export default {
     path: 'manager',
     name: 'manager',
     component: reslove => require(['./page/manager'], reslove)
+  }, {
+    path: 'renderTest',
+    name: 'render_test',
+    component: reslove => require(['./page/render_test'], reslove)
   }]
 }
